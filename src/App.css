@@ -1,38 +1,389 @@
-.App {
-  text-align: center;
+html{
+  scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body{
+  margin: 0;
+  padding: 0;
+}
+
+/* NAVBAR */
+
+ .navbarContainer{
+    background-color: black;
+    display: flex; 
+    
+ }
+
+ .navbar{ 
+    position: fixed;
+    top: 0;
+    z-index: 12;
+    width: 100%;
+    background: white;
+    margin-bottom: 40px;
+ }
+
+ .navbar-collapse{
+  place-content: center;
+ }
+
+ .navFormulario{
+  background-color: red;
+
+ }
+
+ .nav-link{
+  font-size: 30px;
+ }
+
+ /* FORMULARIO */
+
+ .containerForm {
+   width: 100%;
+   height: 1000px; 
+   display: flex; 
+   background-color: #3a3a3a;
+ }
+
+ .containerFormImg { 
+   display: flex;
+   width: 70%;
+   justify-content: center;
+ }
+
+ .img-form{
+   width: 90%;
+   margin: 20px;
+   object-fit: contain;
+ }
+ 
+ .containerFormForm{ 
+   display: flex;
+   margin: 20px; 
+   justify-content: center;
+   width: 30%; 
+ }
+ 
+ .containerFormFormForm{
+   margin: 30px; 
+}
+ 
+ .inputForm{ 
+   box-sizing: border-box;
+   width: 100%;
+   border-radius: 6px;
+   border: 2px solid white;
+   padding: 10px 15px; 
+   font-size: 14px;
+   margin-bottom: 10px;
+ } 
+  
+ .containerInput{
+  margin-top: 20px;
+  margin-bottom: 30px;
+ }
+
+ .spanStyle{
+   font-size: 20px;
+   margin-left: 2px;
+ }
+
+ .textoValidacion{
+  color: red;
+  margin-left: 2%;
+ }
+
+ @media(max-width: 768px){
+  .containerForm{ 
+    flex-direction: column; 
+    height: auto;
+  } 
+  .containerFormImg{ 
+    width: 100%;
+    justify-content: center; 
+    margin-top: 4%;
+  } 
+  .img-form{ 
+    margin: 0;
+  } 
+  .containerFormForm{
+    width: 100%;
+    margin: 0;
+  }
+  .containerFormFormForm{
+    margin: 0;
+  }
+  .containerButtonEnviar{
+    margin-bottom: 4%;
   }
 }
+ 
+ 
+ button[type="submit"],
+ input[type="submit"] {
+   background: #ec5990;
+   color: white;
+   text-transform: uppercase;
+   border: none;
+   margin-top: 40px;
+   padding: 20px;
+   font-size: 16px;
+   font-weight: 100;
+   letter-spacing: 10px;
+ }
+ 
+ button[type="submit"]:hover,
+ input[type="submit"]:hover {
+   background: #bf1650;
+ }
+ 
+ button[type="submit"]:active,
+ input[type="button"]:active,
+ input[type="submit"]:active {
+   transition: 0.3s all;
+   transform: translateY(3px);
+   border: 1px solid transparent;
+   opacity: 0.8;
+ }
+  
+ .inputFormConsulta{
+   margin-top: 9px;
+ }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ .inputSelect{
+   display: flex;
+   height: 40px;
+   width: 500px;
+ }
+
+ .containerButtonEnviar{
+  text-align: center;
+ }
+
+ .titleForm{
+  text-align: center;
+ }
+
+ /* UBICACION */
+
+ .containerUbicacion {
+  width: 100%;
+  height: 1000px; 
+  display: flex;  
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.containerUbicacionMap{
+  width: 100%;  
+  height: 90%;
+  padding-top: 50px; 
+}
+
+.containerUbicacionImg { 
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-right: 20px;
+} 
+
+.containerUbicacionTexto{ 
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin: 20px;  
+  padding-top: 80px;
+  width: 40%;
+} 
+
+.mapboxgl-control-container{
+  display: none;
+}
+
+@media(max-width: 768px){
+  .containerUbicacion{ 
+    flex-direction: column;
+    height: auto; 
+  }
+  .containerUbicacionImg{ 
+    order: 1;
+    height: 400px;
+  }
+  .containerUbicacionMap{
+    padding-top: 0px; 
+    height: 100%;
+  } 
+  .containerUbicacionTexto{
+    width: 95%; 
+    padding: 2%;
+    margin: 0;
+    order: 2;
+  } }
+
+/* PLANO / VIDEO */
+ 
+.containerPlano {
+  width: 100%;
+  height: 1000px; 
+  display: flex;  
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: #3a3a3a;
+}
+ 
+.containerPlanoImg { 
+  display: flex;
+  width: 100%;
+  justify-content: center; 
+}
+
+.img-Plano{
+  width: 90%; 
+  object-fit: contain;
+}
+
+.containerPlanoTexto{ 
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+  margin: 20px;  
+  width: 40%;
+  
+}
+
+.text-white{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+@media(max-width: 768px){
+  .containerPlano{
+    flex-direction: column;
+    height: auto;
+  }
+  .containerPlanoImg{
+    margin-top: 4%;
+  }
+  .containerPlanoTexto{
+    width: 95%; 
+    padding: 2%;
+    margin: 0;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/*  GALERIA */
+.carouselContainer{ 
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  height: 40%;
+}
+
+ 
+
+.img-carousel{
+  height: 100%;
+}
+
+.carousel.carousel-slider{
+  display: inline-block; 
+}
+
+
+/* INICIO */
+
+.inicioContainer{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.img-inicio{
+  width: 100%;  
+  object-fit: contain;
+}
+
+.textoInicio{
+  color: white;
+  background-color: black;
+  position: absolute;
+  top: 70%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+
+.btn-wsp{
+  position:fixed;
+  width:80px;
+  height:80px;
+  line-height: 63px;
+  bottom:100px;
+  right:25px;
+  background:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:35px;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+  z-index:100;
+  transition: all 300ms ease;
+}
+
+.btn-wsp:hover{
+  background: #20ba5a;
+}
+
+@media only screen and (min-width:320px) and (max-width:768px){
+  .btn-wsp{
+      width:63px;
+      height:63px;
+      line-height: 66px;
+}
+}
+
+@media(max-width: 768px){
+  .inicioContainer{
+    margin-top: 0;
   }
-  to {
-    transform: rotate(360deg);
+  .textoInicio{
+    top: 15%;
+    left: 50%;
   }
+}
+
+
+/* @media(max-width: 574px){
+	.footer-col{
+		width: 25%;
+		margin-bottom: 10px;
+	}
+} */
+
+
+/* FOOTER */
+
+.divContactoFooter{
+  display: flex;
+  height: 50px;
+}  
+
+.textContactoFooter{
+  display: flex;
+  color: white;
+  width: 50%;
+  justify-content: center;
+  font-size: 25px;
+  margin-block-start: auto;
+}
+
+.textPoliticasFooter{
+  display: flex;
+  color: white; 
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
 }
