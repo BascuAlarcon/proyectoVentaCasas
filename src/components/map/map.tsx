@@ -39,7 +39,7 @@ const MapboxMap: React.FC<MapInterface> = () => {
         }).setLngLat([markersSushi[0].lng, markersSushi[0].lat]).addTo(map) 
     }
       
-    return <> 
+    return <>  
         <div className="containerUbicacionMap"> 
             <div className='map-container' ref={mapDiv} style={containerStyle}></div>  
         </div>   
