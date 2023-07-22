@@ -11,8 +11,8 @@ const containerStyle = {
   
 const markersSushi = [{
     name: "Center",
-    lat: -35.424202,
-    lng: -71.654126
+    lat: -35.424230,
+    lng: -71.654166
 } ] 
 
 export interface MapInterface{}

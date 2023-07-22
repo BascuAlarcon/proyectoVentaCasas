@@ -108,7 +108,9 @@ export const Form = () => {
                 </select> 
               <span className='textoValidacion'>{contacto}</span>
               </div> 
-              <textarea className='inputFormConsulta' id='inputConsultas' name="consultas" rows={5} cols={64} placeholder='Ingrese sus dudas o consultas'></textarea>
+              <div className="containerInput">
+                <textarea className='inputFormConsulta' id='inputConsultas' name="consultas" rows={5} cols={64} placeholder='Ingrese sus dudas o consultas'></textarea>
+              </div>
             <div className='containerButtonEnviar'>
               <input type="submit" />
             </div>

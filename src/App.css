@@ -32,7 +32,7 @@ body{
     z-index: 12;
     width: 100%;
     background: white;
-    margin-bottom: 40px;
+    margin-bottom: 40px; 
  }
 
  .navbar-collapse{
@@ -127,6 +127,21 @@ body{
   }
   .containerButtonEnviar{
     margin-bottom: 4%;
+  } 
+  .inputForm{
+    width: 90%;
+  }
+  .containerInput{
+    text-align: -webkit-center;
+  }
+  .inputSelect{
+    width: 90%;
+  }
+  .inputFormConsulta{
+    width: 90%;
+  }
+  input[type="submit"] {
+    margin-top: 0px;
   }
 }
  
@@ -136,8 +151,7 @@ body{
    background: #ec5990;
    color: white;
    text-transform: uppercase;
-   border: none;
-   margin-top: 40px;
+   border: none; 
    padding: 20px;
    font-size: 16px;
    font-weight: 100;
@@ -159,14 +173,12 @@ body{
  }
   
  .inputFormConsulta{
-   margin-top: 9px;
-   width: 100%;
+   margin-top: 9px; 
  }
 
  .inputSelect{
    display: flex;
-   height: 40px;
-   width: 100%;
+   height: 40px; 
  }
 
  .containerButtonEnviar{
@@ -222,7 +234,8 @@ body{
   }
   .containerUbicacionImg{ 
     order: 1;
-    height: 400px;
+    height: 500px;
+    width: 100%;
   }
   .containerUbicacionMap{
     padding-top: 0px; 
@@ -284,6 +297,7 @@ body{
   .containerPlano{
     flex-direction: column;
     height: auto;
+    margin-top: 0px;
   }
   .containerPlanoImg{
     margin-top: 4%;
@@ -292,6 +306,12 @@ body{
     width: 95%; 
     padding: 2%;
     margin: 0;
+  }
+  .containerContenidoPlano{
+    flex-direction: column;
+  }
+  .containerContenidoUbicacion{
+    flex-direction: column;
   }
 }
 
@@ -442,8 +462,7 @@ text-align: center;
 /* FOOTER */
 
 .divContactoFooter{
-  display: flex;
-  height: 50px;
+  display: flex; 
 }  
 
 .textContactoFooter{
@@ -464,6 +483,34 @@ text-align: center;
   font-size: 13px;
 }
 
+@media(min-width: 768px){
+  .divContactoFooter{ 
+    height: 50px;
+  }  
+  .inputSelect{
+    width: 100%;
+  }
+  .inputFormConsulta{
+    width: 100%;
+  }
+  input[type="submit"] {
+    margin-top: 40px;
+  }
+}
+
+@media(max-width: 768px){
+  .divContactoFooter{
+    flex-direction: column;
+    align-items: center;  
+  }
+  .textContactoFooter{
+    width: 100%;
+  }  
+}
+
+.mapboxgl-marker{
+  display: none;
+}
 /* NAVEGACION */
 
 .containerGaleriaId{
@@ -528,4 +575,27 @@ text-align: center;
 		transform: translate(-50%, -50%);
 		opacity: 0;
 	}	
+  .containerContenidoPlano{
+    height: auto;
+  }
+  .containerContenidoUbicacion{
+    height: auto;
+  }
+  .inicioContainer{
+    margin-top: 70px;
+  }
+  .carouselContainer{
+    margin-top: 10px;
+  } 
+  .img-modal-carousel{
+    width: 60%;
+  }
+}
+
+.carousel .slide img {
+  width: 60%;
+}
+
+.carousel img {
+  width: 60%;
 }
