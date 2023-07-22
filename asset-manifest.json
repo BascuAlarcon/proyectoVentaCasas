@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/proyectoVentaCasas/static/css/main.4404af2b.css",
-    "main.js": "/proyectoVentaCasas/static/js/main.7264e605.js",
+    "main.css": "/proyectoVentaCasas/static/css/main.8d6111c6.css",
+    "main.js": "/proyectoVentaCasas/static/js/main.601505cb.js",
     "static/media/sushi.jpg": "/proyectoVentaCasas/static/media/sushi.4f0e0231b084d41d6aa2.jpg",
     "static/media/Montserrat-VariableFont_wght.ttf": "/proyectoVentaCasas/static/media/Montserrat-VariableFont_wght.3faa3eef13649db02044.ttf",
     "static/media/27af5cc4-827b-41df-865a-03a16342fe83.jpeg": "/proyectoVentaCasas/static/media/27af5cc4-827b-41df-865a-03a16342fe83.4ab5f8a59d5d421baa1b.jpeg",
@@ -44,11 +44,11 @@
     "static/media/5c24baf9-ca7d-417d-b79e-15990a14797a.jpeg": "/proyectoVentaCasas/static/media/5c24baf9-ca7d-417d-b79e-15990a14797a.00ea09f219381eefdeab.jpeg",
     "static/media/2385b6bf-e6ee-4253-a8ce-3926f04f9256.jpeg": "/proyectoVentaCasas/static/media/2385b6bf-e6ee-4253-a8ce-3926f04f9256.f3113e26d92b9448d382.jpeg",
     "index.html": "/proyectoVentaCasas/index.html",
-    "main.4404af2b.css.map": "/proyectoVentaCasas/static/css/main.4404af2b.css.map",
-    "main.7264e605.js.map": "/proyectoVentaCasas/static/js/main.7264e605.js.map"
+    "main.8d6111c6.css.map": "/proyectoVentaCasas/static/css/main.8d6111c6.css.map",
+    "main.601505cb.js.map": "/proyectoVentaCasas/static/js/main.601505cb.js.map"
   },
   "entrypoints": [
-    "static/css/main.4404af2b.css",
-    "static/js/main.7264e605.js"
+    "static/css/main.8d6111c6.css",
+    "static/js/main.601505cb.js"
   ]
 }
