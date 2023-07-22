@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/proyectoVentaCasas/static/css/main.8d6111c6.css",
-    "main.js": "/proyectoVentaCasas/static/js/main.601505cb.js",
+    "main.js": "/proyectoVentaCasas/static/js/main.06382f9d.js",
     "static/media/sushi.jpg": "/proyectoVentaCasas/static/media/sushi.4f0e0231b084d41d6aa2.jpg",
+    "static/js/mapbox-gl-csp-worker.7e7a743a.worker.js": "/proyectoVentaCasas/static/js/mapbox-gl-csp-worker.7e7a743a.worker.js",
     "static/media/Montserrat-VariableFont_wght.ttf": "/proyectoVentaCasas/static/media/Montserrat-VariableFont_wght.3faa3eef13649db02044.ttf",
     "static/media/27af5cc4-827b-41df-865a-03a16342fe83.jpeg": "/proyectoVentaCasas/static/media/27af5cc4-827b-41df-865a-03a16342fe83.4ab5f8a59d5d421baa1b.jpeg",
     "static/media/fab5f1c5-1060-44a4-9a72-4321ece3de91.jpeg": "/proyectoVentaCasas/static/media/fab5f1c5-1060-44a4-9a72-4321ece3de91.19af95a529028ae4349b.jpeg",
@@ -45,10 +46,10 @@
     "static/media/2385b6bf-e6ee-4253-a8ce-3926f04f9256.jpeg": "/proyectoVentaCasas/static/media/2385b6bf-e6ee-4253-a8ce-3926f04f9256.f3113e26d92b9448d382.jpeg",
     "index.html": "/proyectoVentaCasas/index.html",
     "main.8d6111c6.css.map": "/proyectoVentaCasas/static/css/main.8d6111c6.css.map",
-    "main.601505cb.js.map": "/proyectoVentaCasas/static/js/main.601505cb.js.map"
+    "main.06382f9d.js.map": "/proyectoVentaCasas/static/js/main.06382f9d.js.map"
   },
   "entrypoints": [
     "static/css/main.8d6111c6.css",
-    "static/js/main.601505cb.js"
+    "static/js/main.06382f9d.js"
   ]
 }
