@@ -10,7 +10,7 @@ export const Box = styled.div`
     padding: 20px 10px;
   }
   @media (min-width: 1000px) {
-    padding: 70px 30px;
+    padding: 20px 10px;
   }
 `;
  

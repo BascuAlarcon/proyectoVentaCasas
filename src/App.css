@@ -320,6 +320,7 @@ body{
 .containerTitleCarousel{
   font-size: 35px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .carouselContainer{ 
@@ -448,8 +449,25 @@ text-align: center;
     top: 15%;
     left: 50%;
   }
+  .modal-90w{
+    margin-top: 20%;
+  }
+  .carousel-mobile{
+    display: block;
+  }
+  .carouselContainer{
+    display: none;
+  }
 }
 
+@media(min-width: 768px){
+  .carousel-mobile{
+    display: none;
+  }
+  .carouselContainer{
+    display: block;
+  }
+}
 
 /* @media(max-width: 574px){
 	.footer-col{
@@ -565,7 +583,7 @@ text-align: center;
 
   .containerPlanoId{
     position: relative;
-		bottom: 90px;
+		bottom: 40px;
 		opacity: 0;
   }
 
