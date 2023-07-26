@@ -583,7 +583,7 @@ text-align: center;
 
   .containerPlanoId{
     position: relative;
-		bottom: 40px;
+		bottom: 20px;
 		opacity: 0;
   }
 
@@ -616,4 +616,10 @@ text-align: center;
 
 .carousel img {
   width: 60%;
+}
+
+.carousel .thumbs-wrapper {
+  margin: 20px;
+  overflow: hidden;
+  overflow-x: scroll !important;
 }

@@ -24,7 +24,7 @@ export const Galeria = () => {
                 <div className='containerTitleCarousel'>
                     Galeria de imagenes
                 </div>
-                <Carousel showArrows={true} selectedItem={item} width={'100%'} className='carousel-img-Container' >
+                <Carousel showArrows={true} selectedItem={item} width={'100%'} className='carousel-img-Container' swipeable={true}>
                     <div> 
                         <img className='img-modal-carousel' src={require(`../../assets/img/02d65003-cf63-4083-ab8c-b997cfd5bd0c.jpeg`)} /> 
                         <p className="legend">Legend 1</p>
@@ -99,7 +99,7 @@ export const Galeria = () => {
                 </div> 
             </div>
             <Modal show={lgShow} onHide={() => setLgShow(false)} dialogClassName="modal-90w" aria-labelledby="example-modal-sizes-title-lg">
-                <Carousel showArrows={true} selectedItem={item} width={'30%'} className='carousel-img-Container' >
+                <Carousel showArrows={true} selectedItem={item} width={'60%'} className='carousel-img-Container' >
                     <div> 
                         <img className='img-modal-carousel' src={require(`../../assets/img/02d65003-cf63-4083-ab8c-b997cfd5bd0c.jpeg`)} /> 
                         <p className="legend">Legend 1</p>
