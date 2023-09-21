@@ -48,7 +48,7 @@ const fechaHoy = (dias_semana[fecha.getDay()] + ', ' + fecha.getDate() + ' de ' 
             <Navbar.Toggle aria-controls="basic-navbar-nav" id='navbar-icon'/>
           </div>
           <div style={{width: '30%'}}>
-            <a href="http://localhost:3000/proyectoVentaCasas/#"> 
+            <a href="https://bascualarcon.github.io//proyectoVentaCasas/#"> 
               <img
                   alt=""
                   src={require("../../assets/img/AlmiranteGerken/logo_2.png")}
@@ -59,11 +59,11 @@ const fechaHoy = (dias_semana[fecha.getDay()] + ', ' + fecha.getDate() + ' de ' 
           </div> 
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <a onClick={handleClick} className='navbar-item' href="http://localhost:3000/proyectoVentaCasas/#">Inicio</a> 
-              <a onClick={handleClick} className='navbar-item' href="http://localhost:3000/proyectoVentaCasas/#galeria">Galeria</a>
-              <a onClick={handleClick} className='navbar-item' href="http://localhost:3000/proyectoVentaCasas/#plano">Plano</a>
-              <a onClick={handleClick} className='navbar-item' href="http://localhost:3000/proyectoVentaCasas/#formulario">Ubicacion</a>  
-              <a onClick={handleClick} className='navbar-item' href="http://localhost:3000/proyectoVentaCasas/#formulario">Contacto</a>  
+              <a onClick={handleClick} className='navbar-item' href="https://bascualarcon.github.io//proyectoVentaCasas/#">Inicio</a> 
+              <a onClick={handleClick} className='navbar-item' href="https://bascualarcon.github.io//proyectoVentaCasas/#galeria">Galeria</a>
+              <a onClick={handleClick} className='navbar-item' href="https://bascualarcon.github.io//proyectoVentaCasas/#plano">Plano</a>
+              <a onClick={handleClick} className='navbar-item' href="https://bascualarcon.github.io//proyectoVentaCasas/#formulario">Ubicacion</a>  
+              <a onClick={handleClick} className='navbar-item' href="https://bascualarcon.github.io//proyectoVentaCasas/#formulario">Contacto</a>  
             </Nav> 
           </Navbar.Collapse> 
         </Container>
