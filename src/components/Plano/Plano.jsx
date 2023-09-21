@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from 'react'
-import styled from 'styled-components';
+import React, { useEffect, useState, useContext } from 'react'
+import styled from 'styled-components'; 
+import DB_JSON from '../../assets/texts/DB_Text.json'
 
 const CarouselImg = styled.img` 
 width: 800px;   
@@ -17,16 +18,16 @@ object-fit: 'fill';
 ` 
 
 export const Plano = () => {
-
+ 
   const images = ['c1a25563-5e00-42a1-ba17-64c091e498df.jpeg', 'fab5f1c5-1060-44a4-9a72-4321ece3de91.jpeg']
   const [selectedImage, setSelectedImage] = useState(images[0]);
   const [selectedIndex, setSelectedIndex] = useState(0);
-  const [loaded, setLoaded] = useState(false);
-
+  const [loaded, setLoaded] = useState(false); 
+  
   useEffect(() => {
     const interval = setInterval(() => {
       selectNewImage(selectedIndex, images);
-    }, 8000);
+    }, 12000);
   
     return () => {
       clearInterval(interval);
@@ -52,25 +53,27 @@ export const Plano = () => {
   const next = () => {
     selectNewImage(selectedIndex, images)
   } 
-
+ 
   return (
     <>
       <div className='containerPlanoId' id='plano'>Elemento oculto</div>
       <div className='containerPlano'>  
         <div className='containerTitlePlano'>Plano de la casa</div>
         <div className='containerContenidoPlano'>
+           
+          <div className="containerPlanoTexto">
+            <p className='text-white texto-plano-descripcion'>Casa nueva, moderna e independiente estilo mediterráneo. 380 metros de terreno, 140 metros construidos, 2 pisos, estacionamiento para 3 vehículos, con piscina y quincho.</p><br />
+            <p className='text-white texto-plano-descripcion'>PRIMER PISO: Living comedor separados, cocina amoblada con horno, encimera, campana isla, 1 dormitorio y baño de visita completo, living con 2 ventanales salida al patio o terraza.</p><br />  
+            <p className='text-white texto-plano-descripcion'>SEGUNDO PISO: 3 dormitorios, 2 baños (2 dormitorios con gran closet, dos dormitorio con ventanal salida al balcón, 1 dormitorio en suite con Walking closet y baño)</p><br />  
+            <p className='text-white texto-plano-descripcion'>Número de contacot Dueño: +569 4553 5991</p><br />  
+           </div> 
           <div className="containerPlanoImg">
             <CarouselImg  
-              src={require(`./../../assets/img/${selectedImage}`)} 
+              src={require(`./../../assets/img/AlmiranteGerken/${selectedImage}`)} 
               alt="Plano"  
               className={loaded ? "loaded" : ""} 
               onLoad={() => setLoaded(true)}/>   
           </div>
-          <div className="containerPlanoTexto">
-            <p className='text-white'>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p><br />
-            <p className='text-white'>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p><br />
-            <p className='text-white'>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>
-          </div> 
         </div>
       </div>
     </>

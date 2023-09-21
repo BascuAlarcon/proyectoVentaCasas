@@ -1,0 +1,34 @@
+{
+    "AlmiranteGerken": {
+        "id": "AlmiranteGerken",
+        "nombre": "Almirante Gerken",
+        "direccion": "",
+        "coordenadas_latitud": -33.075617,
+        "coordenadas_longitud": -71.417032,
+        "metros_cuadrado": 32,
+        "habitaciones": 2,
+        "baños": 3,
+        "tipo_hogar": "casa",
+        "transaccion": "venta",
+        "patio": "si",
+        "entrada_autos": "si",
+        "texto_01": "dsssssssss",
+        "texto_02": "Almirante Gerken 02" 
+    },
+    "ElSol": {
+        "id": "ElSol",
+        "nombre": "El Sol",
+        "direccion": "",
+        "coordenadas_latitud": -35.432813,
+        "coordenadas_longitud": -71.609885,
+        "metros_cuadrado": 32,
+        "habitaciones": 2,
+        "baños": 3,
+        "tipo_hogar": "casa",
+        "transaccion": "arriendo",
+        "patio": "si",
+        "entrada_autos": "si",
+        "texto_01": "El Sol 01",
+        "texto_02": "El Sol 02"
+    } 
+} 

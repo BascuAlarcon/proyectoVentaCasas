@@ -1,23 +1,21 @@
 import './App.css'; 
-import { Footer } from './components/Footer';
-import { Form } from './components/Form';
-import { Galeria } from './components/Galeria';
-import { Inicio } from './components/Inicio'; 
-import NavbarComponent from './components/Navbar/Navbar';
-import { Plano } from './components/Plano';
-import { Ubicacion } from './components/Ubicacion';
+import { Footer } from './components/Footer'; 
+import NavbarComponent from './components/Navbar/Navbar';  
+import { Route, Routes } from 'react-router-dom';
+import { Privacidad } from './pages/Politicas';
+import { Home } from './pages/Home/Home'; 
 
 function App() {
-  return (
-    <div className="App"> 
-      <NavbarComponent></NavbarComponent>
-      <Inicio></Inicio>
-      <Galeria></Galeria>
-      <Plano></Plano>
-      <Ubicacion></Ubicacion>
-      <Form></Form>
-      <Footer></Footer>
-    </div>
+  return ( 
+      <div className="App"> 
+        <NavbarComponent/>
+        <Routes>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/proyectoVentaCasas' element={<Home/>}/>
+          <Route path='/politicas' element={<Privacidad/>}/> 
+        </Routes> 
+        <Footer/>
+      </div> 
   );
 }
 
