@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/proyectoVentaCasas/static/css/main.cf9d209a.css",
-    "main.js": "/proyectoVentaCasas/static/js/main.34b446c5.js",
+    "main.js": "/proyectoVentaCasas/static/js/main.f3dd9c6b.js",
     "static/media/img_portada_01.jpg": "/proyectoVentaCasas/static/media/img_portada_01.79c2b0ebf2f8621c796e.jpg",
     "static/media/iloveimg-resized.zip": "/proyectoVentaCasas/static/media/iloveimg-resized.a471dd2f57b5c36c3aa1.zip",
     "static/media/img_portada_02.jpg": "/proyectoVentaCasas/static/media/img_portada_02.9221b488b9322c8fce0e.jpg",
@@ -101,10 +101,10 @@
     "static/media/2385b6bf-e6ee-4253-a8ce-3926f04f9256.jpeg": "/proyectoVentaCasas/static/media/2385b6bf-e6ee-4253-a8ce-3926f04f9256.f3113e26d92b9448d382.jpeg",
     "index.html": "/proyectoVentaCasas/index.html",
     "main.cf9d209a.css.map": "/proyectoVentaCasas/static/css/main.cf9d209a.css.map",
-    "main.34b446c5.js.map": "/proyectoVentaCasas/static/js/main.34b446c5.js.map"
+    "main.f3dd9c6b.js.map": "/proyectoVentaCasas/static/js/main.f3dd9c6b.js.map"
   },
   "entrypoints": [
     "static/css/main.cf9d209a.css",
-    "static/js/main.34b446c5.js"
+    "static/js/main.f3dd9c6b.js"
   ]
 }
