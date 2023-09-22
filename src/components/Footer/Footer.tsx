@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import {
   Box  
 } from "./FooterStyles"; 
-import { Modal } from "react-bootstrap";
+import { Button, Modal } from "react-bootstrap";
   
 export const Footer = () => {
 
-  const [smShow, setSmShow] = useState(false);
+  const handleClose = () => setLgShow(false);
   const [lgShow, setLgShow] = useState(false);
 
   
@@ -39,13 +39,10 @@ export const Footer = () => {
         >
         <Modal.Header >
           <Modal.Title id="example-modal-sizes-title-lg">
-            Large Modal
+          <strong>POLÍTICA DE PRIVACIDAD</strong>
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body>
-        <p className='text-dark titlePrivacidad  '>
-            <strong>POLÍTICA DE PRIVACIDAD</strong>
-        </p>
+        <Modal.Body> 
         <p className='text-dark p-2'>El presente Política de Privacidad establece los términos en que Constructora e Inmobiliaria Valdebenito & Alegria Ltda.  usa y 
             protege la información que es proporcionada por sus usuarios al momento de utilizar su sitio web. 
             Esta compañía está comprometida con la seguridad de los datos de sus usuarios. Cuando le pedimos 
@@ -102,6 +99,9 @@ export const Footer = () => {
             en cualquier momento.
         </p> 
         </Modal.Body>
+        <Button variant="warning" className="mb-4" onClick={handleClose}>
+            Acceptar
+        </Button>
         </Modal> 
     </>
     )
