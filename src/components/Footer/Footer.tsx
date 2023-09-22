@@ -10,7 +10,7 @@ export const Footer = () => {
                    textAlign: "center", 
                    marginTop: "-10px",
                    paddingTop: "10px" }}>
-        <a href="https://bascualarcon.github.io/proyectoVentaCasas/#" className='anchorWithoutStyle'>Inmobiliaria CV</a> 
+        <a href="https://bascualarcon.github.io/proyectoVentaCasas/#" className='anchorWithoutStyle'>Inmobiliaria VA</a> 
       </h1> 
       <div className="divContactoFooter">
         <h4 className="textContactoFooter">clauvalmon@hotmail.com</h4>

@@ -51,9 +51,9 @@ const fechaHoy = (dias_semana[fecha.getDay()] + ', ' + fecha.getDate() + ' de ' 
             <a href="https://bascualarcon.github.io/proyectoVentaCasas/#"> 
               <img
                   alt=""
-                  src={require("../../assets/img/AlmiranteGerken/logo_2.png")}
-                  width="100"
-                  height="70" 
+                  src={require("../../assets/img/AlmiranteGerken/logo_3.png")}
+                  width="170"
+                  height="90" 
                   />{' '}
             </a>
           </div> 
