@@ -20,9 +20,17 @@ body{
 
 /* NAVBAR */
 
-@media(max-width: 768px){
+@media(max-width: 980px){
+  .container-elements-navbar-1{
+    width: 70%;
+  }
+  
+  .container-elements-navbar-2{
+    width: 30%;
+  }
 
 }
+
 
 
 .container-fluid{

@@ -33,7 +33,7 @@ const fechaHoy = (dias_semana[fecha.getDay()] + ', ' + fecha.getDate() + ' de ' 
         <div className='containerNavbar2'>
           <div className='mr-4'>Contactanos para más información:</div>
           <FontAwesomeIcon icon={faWhatsapp} className='mr-1 mt-1'/>
-          <div className='container-text-1-nav-2 mr-3'>+569 5862 6642</div> 
+          <div className='container-text-1-nav-2 mr-3'>+569 4553 5991</div> 
           <FontAwesomeIcon icon={faMailBulk} className='mr-1 mt-1'/>
           <div className='container-text-2-nav-2 mr-3'>clauvalmon@gmail.com</div>
         </div>
@@ -44,11 +44,11 @@ const fechaHoy = (dias_semana[fecha.getDay()] + ', ' + fecha.getDate() + ' de ' 
       <Navbar expand="lg" className="bg-body-tertiary">
         <div className='containerExpandNavbar'></div>
         <Container fluid> 
-          <div style={{width: '70%'}}>
+          <div className='container-elements-navbar-1'>
             <Navbar.Toggle aria-controls="basic-navbar-nav" id='navbar-icon'/>
           </div>
-          <div style={{width: '30%'}}>
-            <a href="https://bascualarcon.github.io//proyectoVentaCasas/#"> 
+          <div className='container-elements-navbar-2'>
+            <a href="https://bascualarcon.github.io/proyectoVentaCasas/#"> 
               <img
                   alt=""
                   src={require("../../assets/img/AlmiranteGerken/logo_2.png")}
@@ -59,11 +59,11 @@ const fechaHoy = (dias_semana[fecha.getDay()] + ', ' + fecha.getDate() + ' de ' 
           </div> 
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <a onClick={handleClick} className='navbar-item' href="https://bascualarcon.github.io//proyectoVentaCasas/#">Inicio</a> 
-              <a onClick={handleClick} className='navbar-item' href="https://bascualarcon.github.io//proyectoVentaCasas/#galeria">Galeria</a>
-              <a onClick={handleClick} className='navbar-item' href="https://bascualarcon.github.io//proyectoVentaCasas/#plano">Plano</a>
-              <a onClick={handleClick} className='navbar-item' href="https://bascualarcon.github.io//proyectoVentaCasas/#formulario">Ubicacion</a>  
-              <a onClick={handleClick} className='navbar-item' href="https://bascualarcon.github.io//proyectoVentaCasas/#formulario">Contacto</a>  
+              <a onClick={handleClick} className='navbar-item' href="https://bascualarcon.github.io/proyectoVentaCasas/#">Inicio</a> 
+              <a onClick={handleClick} className='navbar-item' href="https://bascualarcon.github.io/proyectoVentaCasas/#galeria">Galeria</a>
+              <a onClick={handleClick} className='navbar-item' href="https://bascualarcon.github.io/proyectoVentaCasas/#plano">Plano</a>
+              <a onClick={handleClick} className='navbar-item' href="https://bascualarcon.github.io/proyectoVentaCasas/#formulario">Ubicacion</a>  
+              <a onClick={handleClick} className='navbar-item' href="https://bascualarcon.github.io/proyectoVentaCasas/#formulario">Contacto</a>  
             </Nav> 
           </Navbar.Collapse> 
         </Container>
