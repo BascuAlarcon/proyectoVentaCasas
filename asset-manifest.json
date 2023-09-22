@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/proyectoVentaCasas/static/css/main.e9276d5b.css",
-    "main.js": "/proyectoVentaCasas/static/js/main.4b0c4530.js",
+    "main.js": "/proyectoVentaCasas/static/js/main.c0fa9765.js",
     "static/media/img_portada_01.jpg": "/proyectoVentaCasas/static/media/img_portada_01.79c2b0ebf2f8621c796e.jpg",
     "static/media/img_portada_02.jpg": "/proyectoVentaCasas/static/media/img_portada_02.9221b488b9322c8fce0e.jpg",
     "static/media/img_portada_03.jpg": "/proyectoVentaCasas/static/media/img_portada_03.884accc90110854478a2.jpg",
@@ -101,10 +101,10 @@
     "static/media/2385b6bf-e6ee-4253-a8ce-3926f04f9256.jpeg": "/proyectoVentaCasas/static/media/2385b6bf-e6ee-4253-a8ce-3926f04f9256.f3113e26d92b9448d382.jpeg",
     "index.html": "/proyectoVentaCasas/index.html",
     "main.e9276d5b.css.map": "/proyectoVentaCasas/static/css/main.e9276d5b.css.map",
-    "main.4b0c4530.js.map": "/proyectoVentaCasas/static/js/main.4b0c4530.js.map"
+    "main.c0fa9765.js.map": "/proyectoVentaCasas/static/js/main.c0fa9765.js.map"
   },
   "entrypoints": [
     "static/css/main.e9276d5b.css",
-    "static/js/main.4b0c4530.js"
+    "static/js/main.c0fa9765.js"
   ]
 }
