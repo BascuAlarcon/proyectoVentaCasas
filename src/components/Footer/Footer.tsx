@@ -100,7 +100,7 @@ export const Footer = () => {
         </p> 
         </Modal.Body>
         <Button variant="warning" className="mb-4" onClick={handleClose}>
-            Acceptar
+            Aceptar
         </Button>
         </Modal> 
     </>

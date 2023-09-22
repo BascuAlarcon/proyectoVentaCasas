@@ -35,7 +35,7 @@ const fechaHoy = (dias_semana[fecha.getDay()] + ', ' + fecha.getDate() + ' de ' 
           <FontAwesomeIcon icon={faWhatsapp} className='mr-1 mt-1'/>
           <div className='container-text-1-nav-2 mr-3'>+569 4553 5991</div> 
           <FontAwesomeIcon icon={faMailBulk} className='mr-1 mt-1'/>
-          <div className='container-text-2-nav-2 mr-3'>clauvalmon@gmail.com</div>
+          <div className='container-text-2-nav-2 mr-3'>clauvalmon@hotmail.com</div>
         </div>
       </div>
 
