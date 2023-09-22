@@ -21,9 +21,9 @@ const MapboxMap: React.FC<MapInterface> = () => {
         if (map.current) return ;
         map.current = new Map({
             container: mapDiv.current!, // container ID
-            style: 'mapbox://styles/mapbox/streets-v12', // style URL
+            style: 'mapbox://styles/mapbox/satellite-streets-v12', // style URL
             center: [lng, lat], // starting position [lng, lat]
-            zoom: 15 , // starting zoom
+            zoom: 14 , // starting zoom
         });   
         setMarkers(map.current);
     }, [])  
