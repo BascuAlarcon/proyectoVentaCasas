@@ -26,84 +26,64 @@ export const Galeria = () => {
                 <Carousel showArrows={true} selectedItem={item} width={'100%'} className='carousel-img-Container' swipeable={true}>
                     <div> 
                         <img className='img-modal-carousel' src={require(`../../assets/img/AlmiranteGerken/img_galeria_31.jpeg`)} /> 
-                        <p className="legend">Legend 1</p>
-                    </div>
+                     </div>
                     <div>
                         <img className='img-modal-carousel' src={require(`../../assets/img/AlmiranteGerken/img_galeria_26.jpeg`)} />
-                        <p className="legend">Legend 2</p>
-                    </div>
+                     </div>
                     <div>
                         <img className='img-modal-carousel' src={require(`../../assets/img/AlmiranteGerken/img_galeria_27.jpeg`)} />
-                        <p className="legend">Legend 3</p>
-                    </div>
+                     </div>
                     <div>
                         <img className='img-modal-carousel' src={require(`../../assets/img/AlmiranteGerken/img_galeria_34.jpeg`)} />
-                        <p className="legend">Legend 4</p>
-                    </div>
+                     </div>
                     <div>
                         <img className='img-modal-carousel' src={require(`../../assets/img/AlmiranteGerken/img_galeria_21.jpeg`)} />
-                        <p className="legend">Legend 5</p>
-                    </div>
+                     </div>
                     <div>
                         <img className='img-modal-carousel' src={require(`../../assets/img/AlmiranteGerken/img_galeria_02.jpeg`)} />
-                        <p className="legend">Legend 6</p>
-                    </div>
+                     </div>
                     <div>
                         <img className='img-modal-carousel' src={require(`../../assets/img/AlmiranteGerken/img_galeria_03.jpeg`)} />
-                        <p className="legend">Legend 6</p>
-                    </div>
+                     </div>
                     <div>
                         <img className='img-modal-carousel' src={require(`../../assets/img/AlmiranteGerken/img_galeria_05.jpeg`)} />
-                        <p className="legend">Legend 1</p>
-                    </div>
+                     </div>
                     <div>
                         <img className='img-modal-carousel' src={require(`../../assets/img/AlmiranteGerken/img_galeria_06.jpeg`)} />
-                        <p className="legend">Legend 2</p>
-                    </div>
+                     </div>
                     <div>
                         <img className='img-modal-carousel' src={require(`../../assets/img/AlmiranteGerken/img_galeria_07.jpeg`)} />
-                        <p className="legend">Legend 3</p>
-                    </div> 
+                     </div> 
                     <div>
                         <img className='img-modal-carousel' src={require(`../../assets/img/AlmiranteGerken/img_galeria_22.jpeg`)} />
-                        <p className="legend">Legend 3</p>
-                    </div> 
+                     </div> 
                     <div>
                         <img className='img-modal-carousel' src={require(`../../assets/img/AlmiranteGerken/img_galeria_23.jpeg`)} />
-                        <p className="legend">Legend 3</p>
-                    </div> 
+                     </div> 
                     <div>
                         <img className='img-modal-carousel' src={require(`../../assets/img/AlmiranteGerken/img_galeria_24.jpeg`)} />
-                        <p className="legend">Legend 2</p>
-                    </div>
+                     </div>
                     <div>
                         <img className='img-modal-carousel' src={require(`../../assets/img/AlmiranteGerken/img_galeria_25.jpeg`)} />
-                        <p className="legend">Legend 3</p>
-                    </div> 
+                     </div> 
                     <div>
                         <img className='img-modal-carousel' src={require(`../../assets/img/AlmiranteGerken/img_galeria_32.jpeg`)} />
-                        <p className="legend">Legend 3</p>
-                    </div> 
+                     </div> 
                     <div>
                         <img className='img-modal-carousel' src={require(`../../assets/img/AlmiranteGerken/img_galeria_19.jpeg`)} />
-                        <p className="legend">Legend 3</p>
-                    </div> 
+                     </div> 
                     <div>
                         <img className='img-modal-carousel' src={require(`../../assets/img/AlmiranteGerken/img_galeria_29.jpeg`)} />
-                        <p className="legend">Legend 2</p>
-                    </div>
+                     </div>
                     <div>
                         <img className='img-modal-carousel' src={require(`../../assets/img/AlmiranteGerken/img_galeria_08.jpeg`)} />
-                        <p className="legend">Legend 3</p>
-                    </div> 
+                     </div> 
                     <div>
                         <img className='img-modal-carousel' src={require(`../../assets/img/AlmiranteGerken/img_galeria_16.jpeg`)} />
-                        <p className="legend">Legend 3</p>
-                    </div> 
+                     </div> 
                     <div>
                         <img className='img-modal-carousel' src={require(`../../assets/img/AlmiranteGerken/img_galeria_33.jpeg`)} />
-                        <p className="legend">Legend 3</p>
-                    </div> 
+                     </div> 
                 </Carousel> 
             </div>  
             <div className='carouselContainer' > 
@@ -145,68 +125,52 @@ export const Galeria = () => {
                 <Carousel showArrows={true} selectedItem={item} width={'40%'} className='carousel-img-Container' >
                     <div> 
                         <img className='img-modal-carousel' src={require(`../../assets/img/AlmiranteGerken/img_galeria_31.jpeg`)} /> 
-                        <p className="legend">Legend 1</p>
-                    </div>
+                     </div>
                     <div>
                         <img className='img-modal-carousel' src={require(`../../assets/img/AlmiranteGerken/img_galeria_26.jpeg`)} />
-                        <p className="legend">Legend 2</p>
-                    </div>
+                     </div>
                     <div>
                         <img className='img-modal-carousel' src={require(`../../assets/img/AlmiranteGerken/img_galeria_27.jpeg`)} />
-                        <p className="legend">Legend 3</p>
-                    </div>
+                     </div>
                     <div>
                         <img className='img-modal-carousel' src={require(`../../assets/img/AlmiranteGerken/img_galeria_34.jpeg`)} />
-                        <p className="legend">Legend 4</p>
-                    </div>
+                     </div>
                     <div>
                         <img className='img-modal-carousel' src={require(`../../assets/img/AlmiranteGerken/img_galeria_21.jpeg`)} />
-                        <p className="legend">Legend 5</p>
-                    </div>
+                     </div>
                     <div>
                         <img className='img-modal-carousel' src={require(`../../assets/img/AlmiranteGerken/img_galeria_02.jpeg`)} />
-                        <p className="legend">Legend 6</p>
-                    </div>
+                     </div>
                     <div>
                         <img className='img-modal-carousel' src={require(`../../assets/img/AlmiranteGerken/img_galeria_03.jpeg`)} />
-                        <p className="legend">Legend 6</p>
-                    </div>
+                     </div>
                     <div>
                         <img className='img-modal-carousel' src={require(`../../assets/img/AlmiranteGerken/img_galeria_05.jpeg`)} />
-                        <p className="legend">Legend 1</p>
-                    </div>
+                     </div>
                     <div>
                         <img className='img-modal-carousel' src={require(`../../assets/img/AlmiranteGerken/img_galeria_06.jpeg`)} />
-                        <p className="legend">Legend 2</p>
-                    </div>
+                     </div>
                     <div>
                         <img className='img-modal-carousel' src={require(`../../assets/img/AlmiranteGerken/img_galeria_07.jpeg`)} />
-                        <p className="legend">Legend 3</p>
-                    </div> 
+                     </div> 
                     <div>
                         <img className='img-modal-carousel' src={require(`../../assets/img/AlmiranteGerken/img_galeria_22.jpeg`)} />
-                        <p className="legend">Legend 3</p>
-                    </div> 
+                     </div> 
                     <div>
                         <img className='img-modal-carousel' src={require(`../../assets/img/AlmiranteGerken/img_galeria_23.jpeg`)} />
-                        <p className="legend">Legend 3</p>
-                    </div> 
+                     </div> 
                     <div>
                         <img className='img-modal-carousel' src={require(`../../assets/img/AlmiranteGerken/img_galeria_24.jpeg`)} />
-                        <p className="legend">Legend 3</p>
-                    </div> 
+                     </div> 
                     <div>
                         <img className='img-modal-carousel' src={require(`../../assets/img/AlmiranteGerken/img_galeria_25.jpeg`)} />
-                        <p className="legend">Legend 3</p>
-                    </div> 
+                     </div> 
                     <div>
                         <img className='img-modal-carousel' src={require(`../../assets/img/AlmiranteGerken/img_galeria_32.jpeg`)} />
-                        <p className="legend">Legend 3</p>
-                    </div> 
+                     </div> 
                     <div>
                         <img className='img-modal-carousel' src={require(`../../assets/img/AlmiranteGerken/img_galeria_19.jpeg`)} />
-                        <p className="legend">Legend 3</p>
-                    </div>  
+                     </div>  
                 </Carousel>
             </Modal>
         </>
