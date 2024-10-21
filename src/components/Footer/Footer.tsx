@@ -20,8 +20,8 @@ export const Footer = () => {
           <a href="https://bascualarcon.github.io/proyectoVentaCasas/#" className='anchorWithoutStyle'>Inmobiliaria VA</a> 
         </h1> 
         <div className="divContactoFooter">
-          <h4 className="textContactoFooter">clauvalmon@hotmail.com</h4>
-          <h4 className="textContactoFooter">+56 9 4553 5991</h4>
+          <h4 className="textContactoFooter">dignacioalarcon@gmail.com</h4>
+          <h4 className="textContactoFooter">+569 22386677</h4>
         </div>
         <div className="divPoliticasFooter">
           <div className="divContainerTextFooterPoliticas"><a className="anchorContainerFooterPoliticas" onClick={() => setLgShow(true)}><p className="textPoliticasFooter">Politicas de Privacidad</p></a></div>

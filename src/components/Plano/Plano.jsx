@@ -62,10 +62,10 @@ export const Plano = () => {
         <div className='containerContenidoPlano'>
            
           <div className="containerPlanoTexto">
-            <p className='text-white texto-plano-descripcion'>Casa nueva, moderna e independiente estilo mediterráneo. 380 metros de terreno, 140 metros construidos, 2 pisos, estacionamiento para 3 vehículos, con piscina y quincho.</p><br />
+            <p className='text-white texto-plano-descripcion'>Casa nueva, moderna e independiente estilo mediterráneo. 380 metros de terreno, 140 metros construidos, 2 pisos, estacionamiento para 3 vehículos.</p><br />
             <p className='text-white texto-plano-descripcion'>PRIMER PISO: Living comedor separados, cocina amoblada con horno, encimera, campana isla, 1 dormitorio y baño de visita completo, living con 2 ventanales salida al patio o terraza.</p><br />  
             <p className='text-white texto-plano-descripcion'>SEGUNDO PISO: 3 dormitorios, 2 baños (2 dormitorios con gran closet, dos dormitorio con ventanal salida al balcón, 1 dormitorio en suite con Walking closet y baño)</p><br />  
-            <p className='text-white texto-plano-descripcion'>Número de contacot Dueño: +569 4553 5991</p><br />  
+            <p className='text-white texto-plano-descripcion'>Número de contacot Dueño: +569 22386677</p><br />  
            </div> 
           <div className="containerPlanoImg">
             <CarouselImg  
